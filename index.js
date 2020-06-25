@@ -1,7 +1,7 @@
 module.exports = {
   printWidth: 120,         // prettier recommends 80 (old Unix-Style)
-  tabWidth: 2,             // default
-  useTabs: false,          // default
+  tabWidth: 8,
+  useTabs: true,
   semi: true,              // default
   singleQuote: true,
   quoteProps: 'as-needed', // default
