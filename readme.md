@@ -2,6 +2,12 @@
 
 ## Installation
 
+1. Install npm package
+
+```shell
+npm install @swrlab/swr-prettier-config
+```
+
 1. Include in `package.json`:
 
 ```json
@@ -16,6 +22,3 @@
 "@swrlab/swr-prettier-config"
 ```
 
-## Main rules
-
-  - 

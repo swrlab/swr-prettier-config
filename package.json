@@ -1,0 +1,24 @@
+{
+  "name": "@swrlab/swr-prettier-config",
+  "version": "0.0.1",
+  "description": "SWR Prettier config.",
+  "keywords": [
+    "prettier"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "license": "ISC",
+  "author": "SWR audio lab <lab@swr.de>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swrlab/swr-prettier-config"
+  },
+  "license": "ISC",
+  "bugs": "https://github.com/swrlab/swr-prettier-config/issues",
+  "homepage": "https://github.com/swrlab/swr-prettier-config#readme",
+  "scripts": {
+    "postpublish": "npm publish --ignore-scripts --@swrlab:registry='https://npm.pkg.github.com'"
+  }
+}
