@@ -1,6 +1,6 @@
 {
-	"name": "@swrlab/prettier-config",
-	"version": "0.1.1",
+	"name": "@swrlab/swr-prettier-config",
+	"version": "0.1.2",
 	"description": "SWR Prettier config.",
 	"keywords": [
 		"prettier",
@@ -14,9 +14,9 @@
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/swrlab/prettier-config"
+		"url": "https://github.com/swrlab/swr-prettier-config"
 	},
-	"bugs": "https://github.com/swrlab/prettier-config/issues",
-	"homepage": "https://github.com/swrlab/prettier-config#readme",
+	"bugs": "https://github.com/swrlab/swr-prettier-config/issues",
+	"homepage": "https://github.com/swrlab/swr-prettier-config#readme",
 	"scripts": {}
 }
