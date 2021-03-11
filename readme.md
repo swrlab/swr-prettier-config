@@ -2,23 +2,22 @@
 
 ## Installation
 
-1. Install npm package
+Step 1: Install [npm package](https://www.npmjs.com/package/@swrlab/swr-prettier-config)
 
 ```shell
-npm install @swr/prettier-config
+npm install @swrlab/swr-prettier-config
 ```
 
-1. Include in `package.json`:
+Step 2: Include in `package.json`:
 
 ```json
 {
-  "prettier": "@swr/prettier-config"
+  "prettier": "@swrlab/swr-prettier-config"
 }
 ```
 
-2. Or create a `.prettierrc.json` file with a link:
+Or create a `.prettierrc.json` file with a link:
 
 ```json
-"@swr/prettier-config"
+"@swrlab/swr-prettier-config"
 ```
-
