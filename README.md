@@ -9,7 +9,7 @@
 Step 1: Install [npm package](https://www.npmjs.com/package/@swrlab/swr-prettier-config)
 
 ```shell
-npm install @swrlab/swr-prettier-config
+npm install @swrlab/swr-prettier-config --save-dev
 ```
 
 or
