@@ -7,8 +7,12 @@ on:
 env:
   DEFAULT_BRANCH: main
   EDITORCONFIG_FILE_NAME: /.editorconfig
+  IGNORE_GITIGNORED_FILES: true
   JAVASCRIPT_DEFAULT_STYLE: prettier
   JAVASCRIPT_ES_CONFIG_FILE: /.eslintrc.json
+  LINTER_RULES_PATH: /
+  LOG_LEVEL: VERBOSE
+  MARKDOWN_CONFIG_FILE: /.markdownlint.yaml
   NODE_VERSION: 18
   VALIDATE_ALL_CODEBASE: true
   YAML_CONFIG_FILE: /.github/linters/.yamllint.yaml
@@ -29,8 +33,11 @@ jobs:
           cache: 'yarn'
           cache-dependency-path: '**/yarn.lock'
 
+      - name: 📦 Install Dependencies
+        run: yarn
+
       - name: 📚 Lint Code Base
-        uses: docker://github/super-linter:v2.2.0
+        uses: docker://github/super-linter:v4
         with:
           context: .
           cache-from: type=gha
