@@ -15,14 +15,14 @@ module.exports = {
 			options: {
 				useTabs: false,
 				tabWidth: 2,
-			}
+			},
 		},
 		{
 			files: ['*.yml', '*.yaml'],
 			options: {
 				useTabs: false,
 				tabWidth: 2,
-			}
-		}
-	]
+			},
+		},
+	],
 }
