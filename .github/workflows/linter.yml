@@ -6,8 +6,9 @@ on:
 
 jobs:
   lint:
-    uses: swrlab/node-utils/.github/workflows/linter.yml@a429639efca859a672387913f67b7413874881ba
+    uses: swrlab/node-utils/.github/workflows/linter.yml@main
     with:
       install-all: false
       generate-keys: false
       skip-checkout: false
+      log-level: 'NOTICE'
