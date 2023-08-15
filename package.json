@@ -1,9 +1,12 @@
 {
 	"name": "@swrlab/swr-prettier-config",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"description": "SWR Audio Lab Prettier config",
 	"license": "MIT",
 	"main": "index.js",
+	"scripts": {
+		"reinstall": "rm -rf node_modules && rm yarn.lock && yarn"
+	},
 	"keywords": [
 		"prettier",
 		"swrlab"
@@ -20,7 +23,9 @@
 	"homepage": "https://github.com/swrlab/swr-prettier-config#readme",
 	"devDependencies": {
 		"@swrlab/eslint-plugin-swr": "0.2.0",
-		"eslint": "^8.21.0"
+		"eslint": "^8.47.0"
 	},
-	"scripts": {}
+	"engines": {
+		"node": ">=16"
+	}
 }
